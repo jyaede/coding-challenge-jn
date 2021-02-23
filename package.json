@@ -1,0 +1,15 @@
+{
+  "name": "coding-challenges-jn",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest src/*.test.js --verbose",
+    "test:problem1": "jest src/problem-1.test.js",
+    "test:problem2": "jest src/problem-2.test.js"
+  },
+  "author": "Jason Yaede",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
