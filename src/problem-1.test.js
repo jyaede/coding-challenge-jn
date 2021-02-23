@@ -17,6 +17,8 @@ const testCasesBrackets = [
     ["{}{}{}{}{{{{}}}}", true],
     ["{{}{}{}{}{{{{}}}}}", true],
     ["{hello {node} world}", true],
+    ["{hello {123512} world}", true],
+    ["{hello {@#$%^&*()(*&^%$#@[][][])} world}", true],
     [" { hello world } ", true],
     ["{string{{hello}}{world}}}", false],
     ["{string{{hello}}{world}}{", false],

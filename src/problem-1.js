@@ -1,5 +1,5 @@
 
-// Ensures matching all `{` have a closing `}` and all `}` have opening brace
+// Ensures all `{` have a closing `}`
 // Problem 1 Solution
 function hasMatchingBraces(string) {
     let outstandingBraces = 0;
